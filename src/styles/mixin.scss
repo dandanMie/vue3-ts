@@ -3,3 +3,10 @@
     width: $width;
     height: $height;
 }
+
+// flex布局
+@mixin fl($alignItems: center, $justifyContent: center) {
+    display: flex;
+    align-items: $alignItems;
+    justify-content: $justifyContent;
+}
